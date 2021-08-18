@@ -1,0 +1,16 @@
+
+
+Día: 2021-08-18
+Caja inicial del día de hoy: $2500
+Cantidad de Movimientos: 5
+Ventas en Efectivo: $2500
+Ventas con Tarjeta: $123
+Retiros: $500
+
+Día: 2021-08-18
+Caja inicial del día de hoy: $1000
+Cantidad de Movimientos: 3
+Ventas en Efectivo: $2500
+Ventas con Tarjeta: $0
+Retiros: $500
+Efectivo del día en caja: $2000
