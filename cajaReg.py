@@ -24,7 +24,7 @@ while caja_inicial >= 0:
             retiro += ret
         elif option == '4':
             with open('Ventas.txt', 'a', encoding='utf8') as archivo:
-                archivo.write(f'Día: {dt.today()}\nCaja inicial del día de hoy: ${caja_inicial}\nCantidad de Movimientos: {movimientos}\nVentas en Efectivo: ${efectivo}\nVentas con Tarjeta: ${tarjeta}\nRetiros: ${retiro}\nEfectivo del día en caja: ${efectivo-retiro}')
+                archivo.write(f'Día: {dt.today()}\nCaja inicial del día de hoy: ${caja_inicial}\nCantidad de Movimientos: {movimientos}\nVentas en Efectivo: ${efectivo}\nVentas con Tarjeta: ${tarjeta}\nRetiros: ${retiro}\nEfectivo del día en caja: ${caja_inicial+efectivo-retiro}')
                 break
         else:
             print('Elegí una opción correcta')
